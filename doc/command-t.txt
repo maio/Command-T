@@ -340,6 +340,12 @@ COMMANDS                                        *command-t-commands*
                 can persist across Vim sessions (see Vim's |jumplist|
                 documentation for more info).
 
+                                                *:CommandTGit*
+|:CommandTGit|  Brings up the Command-T Git window.
+                This works exactly like the standard file window,
+                except that the selection is limited to files that
+                are part of current Git repository.
+
                                                 *:CommandTFlush*
 |:CommandTFlush|Instructs the plug-in to flush its path cache, causing
                 the directory to be rescanned for new or deleted paths
